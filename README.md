@@ -10,7 +10,7 @@
 
 - **Table Pessoa**
 |column      |datatype    |         
-|   :---:    |   :---:    |                  
+|:---------: | :--------: |                  
 |ID          |int         |         
 |nome        |string      |         
 |ativo       |bool        |         
@@ -19,7 +19,7 @@
 &nbsp;
 - **Table Matricula**
 |column      |datatype    |
-|:--------:  | :--------: |
+|:--------:  |:--------:  |
 |ID          |int         |
 |status      |string      |
 |estudante_id|int         |
