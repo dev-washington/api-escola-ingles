@@ -9,6 +9,7 @@
 ### Banco de Dados
 
 - **Table Pessoa**
+
 |column      |datatype    |         
 |------------|------------|                  
 |ID          |int         |         
@@ -16,24 +17,27 @@
 |ativo       |bool        |         
 |email       |string      |         
 |role        |string      |         
-&nbsp;
+
 - **Table Matricula**
+
 |column      |datatype    |
 |------------|------------|
 |ID          |int         |
 |status      |string      |
 |estudante_id|int         |
 |turma_id    |int         |
-&nbsp;
+
 - **Table Turma**         
+
 |column      |datatype    |
 |----------- |----------- |                  
 |ID          |int         |         
 |docent_id   |int         |         
 |data_inicio |dateonly    |         
 |nivel_id    |int         |         
-&nbsp;
+
 - **Table Nivel**
+
 |column      |datatype    |
 |----------- |----------- |
 |ID          |int         |
