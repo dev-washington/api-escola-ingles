@@ -8,7 +8,7 @@
 
 ### Banco de Dados
 
-- [x] **Table Pessoa**
+- **Table Pessoa**
 |column      |datatype    |         
 |   :---:    |   :---:    |                  
 |ID          |int         |         
@@ -16,8 +16,8 @@
 |ativo       |bool        |         
 |email       |string      |         
 |role        |string      |         
-
-- [x] **Table Matricula**
+&nbsp;
+- **Table Matricula**
 |column      |datatype    |
 |    :---:   |    :---:   |
 |ID          |int         |
@@ -25,7 +25,7 @@
 |estudante_id|int         |
 |turma_id    |int         |
 
-- [x] **Table Turma**         
+- **Table Turma**         
 |column      |datatype    |
 |   :---:    |   :---:    |                  
 |ID          |int         |         
@@ -33,7 +33,7 @@
 |data_inicio |dateonly    |         
 |nivel_id    |int         |         
 
-- [x] **Table Nivel**
+- **Table Nivel**
 |column      |datatype    |
 |    :---:   |    :---:   |
 |ID          |int         |
