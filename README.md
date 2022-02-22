@@ -6,23 +6,39 @@
 
 ### Banco de Dados
 
-|Table Pessoa             |         |Table Matricula          |
-|   :---:    |   :---:    |         |    :---:   |    :---:   |
-|column      |datatype    |         |column      |datatype    |
-|ID          |int         |         |ID          |int         |
-|nome        |string      |         |status      |string      |
-|ativo       |bool        |         |estudante_id|int         |
-|email       |string      |         |turma_id    |int         |
+|Table Pessoa             |         
+|   :---:    |   :---:    |         
+|column      |datatype    |         
+|ID          |int         |         
+|nome        |string      |         
+|ativo       |bool        |         
+|email       |string      |         
 |role        |string      |         
 
-|Table Turma              |         |Table Nivel              |
-|   :---:    |   :---:    |         |    :---:   |    :---:   |
-|column      |datatype    |         |column      |datatype    |
-|ID          |int         |         |ID          |int         |
-|docent_id   |int         |         |descr_nivel |string      |
+|Table Matricula          |
+|    :---:   |    :---:   |
+|column      |datatype    |
+|ID          |int         |
+|status      |string      |
+|estudante_id|int         |
+|turma_id    |int         |
+
+|Table Turma              |         
+|   :---:    |   :---:    |         
+|column      |datatype    |         
+|ID          |int         |         
+|docent_id   |int         |         
 |data_inicio |dateonly    |         
 |nivel_id    |int         |         
- 
+
+|Table Nivel              |
+|    :---:   |    :---:   |
+|column      |datatype    |
+|ID          |int         |
+|descr_nivel |string      |
+
+## 
+
 ```bash
 # Para subir as bibliotecas intaladas
 npm update
