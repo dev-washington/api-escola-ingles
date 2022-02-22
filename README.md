@@ -19,7 +19,7 @@
 &nbsp;
 - **Table Matricula**
 |column      |datatype    |
-|    :---:   |    :---:   |
+|:--------:  | :--------: |
 |ID          |int         |
 |status      |string      |
 |estudante_id|int         |
@@ -27,7 +27,7 @@
 
 - **Table Turma**         
 |column      |datatype    |
-|   :---:    |   :---:    |                  
+|:-------:   |:--------:  |                  
 |ID          |int         |         
 |docent_id   |int         |         
 |data_inicio |dateonly    |         
@@ -35,7 +35,7 @@
 
 - **Table Nivel**
 |column      |datatype    |
-|    :---:   |    :---:   |
+|:---------: |:---------: |
 |ID          |int         |
 |descr_nivel |string      |
 
